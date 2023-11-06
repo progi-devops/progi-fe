@@ -9,6 +9,12 @@
 
     `"start-prod": "node app.js"`
 
+  - u package.json dodati sljedeći odjeljak zbog Node verzije:
+  ```
+  "engines": {
+      "node": ">=18.18.0 <19.0.0"
+      },
+  ```
 - koristenje proxya omogucuje da se pozivi na api izvrsavaju bez potrebe za eksplicitnim pozivom adrese backenda - pogledati App.tsx za primjer
 
 ### Kreiranje frontenda:
