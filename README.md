@@ -31,4 +31,5 @@ U Render dashboardu:
 - Dodati potrebne environment varijable - API_BASE_URL postaviti na adresu deployanog backenda aplikacije dostupnu na Render dashboardu
 - Stisnuti Create Web Service
 
-Napomena: nakon perioda neaktivnosti aplikacije na Renderu ce biti automatski ugasene, te ponovno podignute pri zaprimanju zatjeva (otvaranje web stranice frontenda ili slanje zahtjeva na API) i kao takve nece biti dostupne dok se ne podignu sto moze trajati nekoliko minuta
+Napomena: U free tier-u nakon perioda neaktivnosti aplikacije na Renderu bit će automatski ugašene, te ponovno podignute pri prvom zaprimanju zatjeva (otvaranje web stranice frontenda ili slanje zahtjeva na API).
+Ovo može rezultirati s nekoliko minuta nedostupnosti aplikacije ako se otvara npr. prvi put u danu.
